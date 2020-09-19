@@ -9,6 +9,10 @@
 <lastmod>2020-09-13T00:00:00+08:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/2020/09/19/hahaha.html</loc>
+<lastmod>2020-09-19T00:00:00+08:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/about.html</loc>
 </url>
 <url>
@@ -16,5 +20,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/assets/pdfs/gaze%20selection%20performance.pdf</loc>
+<lastmod>2020-09-19T17:30:03+08:00</lastmod>
 </url>
 </urlset>
