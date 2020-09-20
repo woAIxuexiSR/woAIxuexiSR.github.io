@@ -1,3 +1,15 @@
-.current { color: green; }
+body { height: calc(100%); margin: 0; background-image: url(/assets/images/title_logo.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
+
+.wrap { max-width: calc(70%); margin-left: auto; margin-right: auto; padding-left: 30px; padding-right: 30px; padding-top: 40px; min-height: calc(100vh - 240px); }
+
+.nav { float: right; padding-top: 25px; padding-right: 150px; }
+
+.nav_title { margin-right: 30px; font-family: Georgia, 'Times New Roman', "Microsoft YaHei", serif; font-size: 20pt; color: #435266; }
+
+.content { margin-top: 50px; margin-left: 20px; margin-right: 20px; }
+
+#contact { max-width: calc(70%); margin-left: auto; margin-right: auto; margin-top: 50px; height: 150px; background-color: #e7e7e7; font-size: 16px; }
+
+a { text-decoration: none; }
 
 /*# sourceMappingURL=styles.css.map */
