@@ -1,4 +1,4 @@
-body { height: calc(100%); margin: 0; background-image: url(/assets/images/title_logo.png); background-repeat: no-repeat; background-position: center; background-size: 100%; }
+body { height: calc(100%); margin: 0; background-image: url(/assets/images/girl.png); background-repeat: no-repeat; background-position: top left; background-size: 100%; background-repeat: repeat; }
 
 .wrap { max-width: calc(70%); margin-left: auto; margin-right: auto; padding-left: 30px; padding-right: 30px; padding-top: 40px; min-height: calc(100vh - 240px); }
 
