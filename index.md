@@ -16,7 +16,4 @@ Things that I want to do:
 
 ## Perfect!!!
 
-$$
-a^2 = b^2 + c^2
-\mu = \frac{\sum_{i=1}^n{a_{i}}}{n}
-$$
+$\mu = \frac{\sum_{i=1}^n{a_{i}}}{n}$
