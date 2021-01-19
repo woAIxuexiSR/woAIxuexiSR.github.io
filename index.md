@@ -2,6 +2,7 @@
 layout: default
 title: "Home"
 ---
+
 # {{"Hello World!" | downcase}}
 
 Things that I want to do:
@@ -14,3 +15,8 @@ Things that I want to do:
 7. learn Japanese (half an hour)
 
 ## Perfect!!!
+
+$$
+a^2 = b^2 + c^2
+\mu = \frac{\sum_{i=1}^n{a_{i}}}{n}
+$$
