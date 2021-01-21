@@ -1,97 +1,97 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    {% feed_meta %}
-    {% seo %}
-    <style></style>
-  </head>
-  <body>
-    <div class="wrap">
-      <a href="/">
-          <img src="/assets/images/title_logo1.png" width="28%" height="100%">
-      </a>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }}</title>
+		<link rel="stylesheet" href="/assets/css/styles.css">
+		{% feed_meta %}
+		{% seo %}
+		<style></style>
+	</head>
+	<body>
+		<div class="wrap">
+			<a href="/">
+				<img src="/assets/images/title_logo1.png" width="28%" height="100%">
+			</a>
 
-      <div class="nav">
-      {% include navigation.html %}
-      </div>
+			<div class="nav">
+				{% include navigation.html %}
+			</div>
 
-      <div class="content">      
-        {{ content }}
-      </div>
-    </div>
+			<div class="content">      
+				{{ content }}
+			</div>
+		</div>
 
-    <footer>
-      <div id="contact">
-        my github id is woAIxuexiSR;
-      </div>
-    </footer>
-  </body>
+		<footer>
+			<div>
+				{% include contact.html %}
+			</div>
+		</footer>
+	</body>
 </html>
 
 
 <!-- <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
-    />
-    <script
-      defer="defer"
-      src="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js"
-    ></script>
-    <script
-      defer="defer"
-      src="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
-      onload='
-        if (screen.width > screen.height)
-        {
-          let pio_container = document.createElement("div");
-          pio_container.classList.add("pio-container");
-          pio_container.classList.add("right");
-          document.body.insertAdjacentElement("beforeend", pio_container);
-          let pio_action = document.createElement("div");
-          pio_action.classList.add("pio-action");
-          pio_container.insertAdjacentElement("beforeend", pio_action);
-          let pio_canvas = document.createElement("canvas");
-          pio_canvas.id = "pio";
-          pio_canvas.style.width = "14rem";
-          pio_canvas.width = "600";
-          pio_canvas.height = "800";
-          pio_container.insertAdjacentElement("beforeend", pio_canvas);
-          let pio = new Paul_Pio({
-            "mode": "draggable",
-            "hidden": true,
-            "content": {
-              "skin": ["要换成我的朋友吗？", "让她放个假吧~"],
-              "custom": [{
-                "selector": "a",
-                "type": "link",
-              }, {
-                "selector": ".sidebar-toggle",
-                "text": "打开侧边栏叭~"
-              }, {
-                "selector": ".effect-info",
-                "text": "哇，你发现了什么！"
-              }, {
-                "selector": "#sidebar-search-input",
-                "text": "想搜索什么呢？很多干货哦！"
-              }, {
-                "selector": "#toc",
-                "text": "这是目录~"
-              }, {
-                "selector": ".page-title",
-                "text": "这是标题~"
-              }, {
-                "selector": ".v",
-                "text": "评论没有审核，要对自己的发言负责哦~"
-              }]
-            },
-            "model": [
-              "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/33/model.2018.bls-winter.json",
-              "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/platelet-2/model.json",
-              "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/xiaomai/xiaomai.model.json",
-              ]
-          });
-        }'
-  ></script> -->
+	rel="stylesheet"
+	href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
+	/>
+	<script
+		defer="defer"
+	  src="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/l2d.min.js"
+	></script>
+	<script
+		defer="defer"
+	  src="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.js"
+	  onload='
+		if (screen.width > screen.height)
+		{
+		  let pio_container = document.createElement("div");
+		  pio_container.classList.add("pio-container");
+		  pio_container.classList.add("right");
+		  document.body.insertAdjacentElement("beforeend", pio_container);
+		  let pio_action = document.createElement("div");
+pio_action.classList.add("pio-action");
+pio_container.insertAdjacentElement("beforeend", pio_action);
+let pio_canvas = document.createElement("canvas");
+pio_canvas.id = "pio";
+pio_canvas.style.width = "14rem";
+pio_canvas.width = "600";
+pio_canvas.height = "800";
+pio_container.insertAdjacentElement("beforeend", pio_canvas);
+let pio = new Paul_Pio({
+	"mode": "draggable",
+	"hidden": true,
+	"content": {
+		"skin": ["要换成我的朋友吗？", "让她放个假吧~"],
+		"custom": [{
+			"selector": "a",
+			"type": "link",
+		}, {
+			"selector": ".sidebar-toggle",
+			"text": "打开侧边栏叭~"
+		}, {
+			"selector": ".effect-info",
+			"text": "哇，你发现了什么！"
+		}, {
+			"selector": "#sidebar-search-input",
+			"text": "想搜索什么呢？很多干货哦！"
+		}, {
+			"selector": "#toc",
+			"text": "这是目录~"
+		}, {
+			"selector": ".page-title",
+			"text": "这是标题~"
+		}, {
+			"selector": ".v",
+			"text": "评论没有审核，要对自己的发言负责哦~"
+		}]
+	},
+	"model": [
+		"https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/33/model.2018.bls-winter.json",
+		"https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/platelet-2/model.json",
+		"https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/xiaomai/xiaomai.model.json",
+	]
+});
+}'
+	></script> -->

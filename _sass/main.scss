@@ -1,11 +1,11 @@
 body {
     height: calc(100%);
     margin: 0;
-    background-image: url(/assets/images/girl.png);
-    background-repeat: no-repeat;
-    background-position: top left;
-    background-size: 100%;
-    background-repeat: repeat;
+	// background-image: url(/assets/images/girl.png);
+	// background-repeat: no-repeat;
+	// background-position: top left;
+	// background-size: 100%;
+	// background-repeat: repeat;
 }
 
 .wrap {
@@ -44,8 +44,14 @@ body {
     margin-right: auto;
     margin-top: 50px;
     height: 150px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 
-    background-color: #e7e7e7;
+    outline-style: solid;
+	outline-width: 2px;
+	outline-color: rgba(#435266, 0.3);
+
     font-size: 16px;
 }
 
