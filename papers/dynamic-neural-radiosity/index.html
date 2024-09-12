@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="../google.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script type="text/javascript">WebFont.load({
             google: {
                 families: ["Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic", "Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic", "Ubuntu:300,300italic,400,400italic,500,500italic,700,700italic", "Changa One:400,400italic", "Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic", "Varela Round:400", "Bungee Shade:regular", "Roboto:300,regular,500"
@@ -199,8 +200,8 @@
                     significant advancement by injecting the radiometric prior into the training process, allowing for efficient modeling of the global radiance fields using
                     a lightweight network and grid-based representations. However, this method encounters difficulties in modeling dynamic scenes, as the high-dimensional 
                     feature space quickly becomes unmanageable as the number of varying scene parameters grows. In this work, we extend neural radiosity for variable scenes
-                    through a novel neural decomposition method. To achieve this, we first parameterize the animated scene with an explicit vector $\mathbf{v}$, which conditions
-                    a high-dimensional radiance field $L_{\theta}$. We then develop a practical representation for $L_{\theta}$ by decomposing the high-dimensional feature
+                    through a novel neural decomposition method. To achieve this, we first parameterize the animated scene with an explicit vector \(\mathbf{v}\), which conditions
+                    a high-dimensional radiance field \(L_{\theta}\). We then develop a practical representation for \(L_{\theta}\) by decomposing the high-dimensional feature
                     grid into 3D grids, 2D feature planes, and lightweight MLPs. This strategy effectively models the correlation between 3D spatial features and dynamic 
                     scene variables, while maintaining a practical memory and computational cost. Experimental results show that our method facilitates efficient dynamic 
                     global illumination rendering with practical runtime performance, outperforming previous state-of-the-art techniques with both reduced training and 
