@@ -13,7 +13,7 @@ SIGGRAPH Asia 2024
 
 ---
 
-### <a href="/papers/dynamic-neural-radiosity" style="color:rgb(100, 100, 100);">Efficient Neural Path Guiding with 4D Modeling</a>
+### <a href="/papers/distributed-guiding" style="color:rgb(100, 100, 100);">Efficient Neural Path Guiding with 4D Modeling</a>
 
 Honghao Dong, **Rui Su**, Guoping Wang, Sheng Li
 
